@@ -41,7 +41,7 @@ class PipelineStack(core.Stack):
                 value=ecr_repo.repository_uri,
                 export_name="ecr-repo-uri")
 
-        github_repo='YOUR_GITHUB_USERNAME/cdk_pipelines_demo'
+        github_repo='jmatias/aws-cdk-pipelines-demo'
 
         git_hub_commit = _pipelines.CodePipelineSource.git_hub(
                     github_repo,
@@ -99,4 +99,3 @@ class PipelineStack(core.Stack):
             resource_arns=["*"],
             grantee=buildContainerProject
         )
-
