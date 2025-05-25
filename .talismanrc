@@ -1,0 +1,7 @@
+fileignoreconfig:
+- filename: pyproject.toml
+  checksum: 362fee7a4b8013ab50da42b1f33fcd32059e07dc043fd10b104b8389d2bd092a
+version: "1.0"
+
+scopeconfig:
+  - scope: python
